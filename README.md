@@ -32,6 +32,6 @@ Feel free to reach out to me through @sanjaykumarwebs if you have any questions 
 ### Recommended / Preferred
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Education Funda](https://www.youtube.com/@EducationFundaIndia)
-- [Sanjay Kumar](https://sanjaydeveloper.netlify.app/)
+- [Education Funda (YouTube)](https://www.youtube.com/@EducationFundaIndia)
+- [Sanjay Kumar (Portfolio)](https://sanjaydeveloper.netlify.app/)
 

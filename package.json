@@ -2,10 +2,20 @@
   "name": "rabbitmq-nodejs-real-time-app",
   "version": "1.0.0",
   "description": "A real time application project with usage of RabbitMQ and Node.js.",
-  "main": "index.js",
+  "main": "dist/app.js",
+  "type": "module",
   "scripts": {
-    "start": "node dist/app.js",
+    "ts-to-js": "rimraf dist && tsc --pretty",
+    "prestart": "npm run ts-to-js",
+    "start:ts-app-watch": "tsc -w",
+    "start:js-app-watch": "nodemon --watch dist dist/app.js",
+    "start": "concurrently \"npm run start:ts-app-watch\" \"npm run start:js-app-watch\"",
+    "build": "npm run ts-to-js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaydeveloper15/rabbitmq-nodejs-real-time-app.git"
   },
   "keywords": [
     "nodejs",
@@ -15,12 +25,17 @@
   ],
   "author": "Sanjay Kumar",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanjaydeveloper15/rabbitmq-nodejs-real-time-app/issues"
+  },
   "dependencies": {
     "amqplib": "^0.10.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "concurrently": "^9.1.0",
     "nodemon": "^3.1.9",
     "typescript": "^5.7.2"
   }
