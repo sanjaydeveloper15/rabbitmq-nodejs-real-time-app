@@ -12,12 +12,23 @@ A real time application project with usage of RabbitMQ and Node.js.
 - Receive messages dynamically in real-time.
 - Responsive design with smooth UI interactions.
 
-
 ## Requirements
 
 - Nodejs
 - RabbitMQ
 - TypeScript
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:8001](http://localhost:8001) with your browser to see the result.
 
 ## What is TypeScript ?
 
