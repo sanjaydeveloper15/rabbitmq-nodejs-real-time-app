@@ -68,7 +68,7 @@ Clone the repository and follow these steps:
 ## ❤️ Found this project useful?
 
 If you found this project useful:
-- ⭐️ Please give it a star on [GitHub](https://github.com/sanjaydeveloper15/rabbitmq-nodejs-real-time-app)
+- ⭐️ Please give it a star on GitHub!
 - 📢 Share it on social media to help others discover it.
 - Feel free to reach out to me on Twitter [@sanjaykumarwebs](https://twitter.com/sanjaykumarwebs) for any questions or feedback.
 
